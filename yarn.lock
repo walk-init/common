@@ -171,20 +171,20 @@ __metadata:
   resolution: "@walkcat/common@workspace:."
   dependencies:
     "@types/node": "npm:^22.10.7"
-    "@walkcat/core": "npm:^1.0.3"
+    "@walkcat/core": "npm:^1.0.4"
     prettier: "npm:^3.9.5"
     typescript: "npm:^5.7.3"
   languageName: unknown
   linkType: soft
 
-"@walkcat/core@npm:^1.0.3":
-  version: 1.0.3
-  resolution: "@walkcat/core@npm:1.0.3"
+"@walkcat/core@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "@walkcat/core@npm:1.0.4"
   dependencies:
     "@trivago/prettier-plugin-sort-imports": "npm:^5.2.2"
   peerDependencies:
-    prettier: 3.0.0
-  checksum: 10c0/b23db16930daf91b3e244069a38651d2201cf035bddcb22da76b43a3eac991a815c906083e744a0c5a11613dd8640f6462cf04231163d57289f02457f6b0b9fd
+    prettier: ^3.0.0
+  checksum: 10c0/b24059a5cdb1b65fb12144ed0349b67736947ef9f3c4df6787870877161382b28cb954ba22380a5e2bf3bdf6cb27fae3c7b3fd0702c14afbca96721a450e7cfe
   languageName: node
   linkType: hard
 
